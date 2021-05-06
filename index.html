@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Karim Emilio</title>
+    <style>
+      * {
+        background-color: #a4a4ac;
+      }
+      #link {
+        text-decoration: none;
+      }
+      .column {
+        float: left;
+        width: 32%;
+        padding: 5px;
+        align-items: center;
+      }
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body style="text-align: center">
+    <h1>Karim Emilio</h1>
+    <h2>Mi Curriculum Vitae</h2>
+    <img
+      src="img/karim.png"
+      style="border: 4px solid; color: black"
+      alt=""
+      height="100"
+    />
+    <p>
+      Me llamo <b>Karim Emilio</b> tengo <i>22 años</i> y soy de
+      <u>Mar del Plata</u>
+    </p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201044.53059029114!2d-57.85872142328813!3d-38.06290968962669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1620084405175!5m2!1ses!2sar"
+      width="300"
+      height="225"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+    <div class="row">
+      <div class="column">
+        <a id="link" href="estudios.html">
+          <img
+            src="img/exam.svg"
+            width="200"
+            height="100"
+            alt="Estudios"
+          /><br />
+          <span>Formación académica</span>
+        </a>
+      </div>
+      <div class="column">
+        <a id="link" href="experiencia.html">
+          <img
+            src="img/work.svg"
+            width="200"
+            height="100"
+            alt="Estudios"
+          /><br />
+          <span>Experiencia laboral</span>
+        </a>
+      </div>
+      <div class="column">
+        <a id="link" href="trabajos.html">
+          <img
+            src="img/dev.svg"
+            width="200"
+            height="100"
+            alt="Estudios"
+          /><br />
+          <span>Ideas y trabajos en desarrollo</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
